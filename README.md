@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Strapi minimal starter
 
 ## Used in the project
 
