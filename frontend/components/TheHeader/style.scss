@@ -1,0 +1,26 @@
+.header {
+    @include screen('sm') {
+        height: $header__height_sm;
+    }
+    @include screen('md') {
+        height: $header__height_md;
+    }
+    @include screen('lg-up') {
+        height: $header__height_lg;
+    }
+
+    &__content {
+        display: flex;
+        vertical-align: center;
+        justify-content: space-between;
+        height: 100%;
+
+        & > * {
+            align-self: center;
+        }
+
+        @include screen('sm') {
+            flex-direction: column;
+        }
+    }
+}

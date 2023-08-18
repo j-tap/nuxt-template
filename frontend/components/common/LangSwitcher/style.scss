@@ -1,0 +1,12 @@
+.lang-switcher {
+    display: flex;
+    margin: 0;
+
+    &__item {
+        cursor: pointer;
+    }
+
+    .active {
+        color: $color__accent;
+    }
+}

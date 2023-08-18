@@ -1,0 +1,16 @@
+$mobile: 360px;
+$tablet: 768px;
+$desktop: 1280px;
+$desktopXl: 1920px;
+
+$screen-and: 'only screen and';
+$media: (
+  'sm': '#{$screen-and} (max-width: #{$tablet - 1})',
+  'md': '#{$screen-and} (min-width: #{$tablet}) and (max-width: #{$desktop - 1})',
+  'md-down': '#{$screen-and} (max-width: #{$desktop - 1})',
+  'md-up': '#{$screen-and} (min-width: #{$tablet})',
+  'lg': '#{$screen-and} (min-width: #{$desktop}) and (max-width: #{$desktopXl - 1})',
+  'lg-down': '#{$screen-and} (max-width: #{$desktopXl - 1})',
+  'lg-up': '#{$screen-and} (min-width: #{$desktop})',
+  'xl': '#{$screen-and} (min-width: #{$desktopXl})',
+);

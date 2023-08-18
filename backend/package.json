@@ -1,0 +1,33 @@
+{
+  "name": "backend-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "^4.12.1",
+    "@strapi/plugin-users-permissions": "^4.12.1",
+    "@strapi/strapi": "^4.12.4",
+    "better-sqlite3": "^8.5.0",
+    "strapi-plugin-populate-deep": "^3.0.0",
+    "strapi-plugin-slugify": "^2.3.3",
+    "strapi-plugin-transformer": "^3.1.0"
+  },
+  "author": {
+    "name": "j-tap"
+  },
+  "strapi": {
+    "uuid": "b314d49a-c307-4e8e-baee-4f0e11bab479"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
